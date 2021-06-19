@@ -1,0 +1,58 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "DinningRoomTileSet.tsx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "DinningRoom.tmx": {
+            "scale": 4.026190476190476,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 75.50561797752809,
+                "y": 71.53163808397399
+            }
+        },
+        "DinningRoomTileSet.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "black.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "shipInteriorMap.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 75.83333333333333,
+                "y": 71.83333333333333
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/James/Documents/Jobs/Raytheon/Hackathon/Hackathon_6_18_2021/Portal/Portal Game/TileD",
+    "map.height": 18,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+        "shipInteriorMap.tmx",
+        "DinningRoom.tmx",
+        "DinningRoomTileSet.tsx"
+    ],
+    "project": "ShipInterior.tiled-project",
+    "recentFiles": [
+        "shipInteriorMap.tmx",
+        "DinningRoom.tmx",
+        "DinningRoomTileSet.tsx",
+        "black.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
