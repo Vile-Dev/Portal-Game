@@ -13470,6 +13470,17 @@
                     "animSpeed": "3",
                     "script": [
                         {
+                            "id": "b2941a97-e7a6-4c08-a05d-146abecf75f1",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hey, it's one of\nthose energy balls\nDr. Vial studies.",
+                                    "But it's a lot\nbigger now!"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
                             "id": "b65a7739-9924-48c4-8355-c6b30c2d0e3c",
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
@@ -13649,6 +13660,16 @@
                                         "command": "EVENT_END"
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id": "c28e2c0a-7082-44d7-a513-c290b3a07a06",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Oh man, How'd I\nget over here? Is\nteleporting real?"
+                                ],
+                                "avatarId": ""
                             }
                         },
                         {
@@ -16500,8 +16521,8 @@
     ],
     "settings": {
         "startSceneId": "6c95df77-a1f6-4b5a-a52d-584c4c6de845",
-        "startX": 6,
-        "startY": 9,
+        "startX": 4,
+        "startY": 1,
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 193,

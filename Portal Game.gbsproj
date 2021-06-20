@@ -3592,7 +3592,8 @@
                                             "args": {
                                                 "text": [
                                                     "This things\nbuzzing a lot, I\nmust be close.",
-                                                    "I better be\ncareful not to use\nit to quickly."
+                                                    "I better be\ncareful not to use\nit to quickly.",
+                                                    "** PRESS <B>\nBUTTON TO COLLECT\nCHARGES **"
                                                 ],
                                                 "avatarId": ""
                                             }
@@ -5684,6 +5685,17 @@
                                             "y": 10,
                                             "direction": "down",
                                             "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "8981bf52-ba3e-40b7-887f-b9b908d82e6e",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "There's a dark\nportal in the\nmiddle of the room",
+                                                "It's glowing now!\nI wonder where it\nleads..."
+                                            ],
+                                            "avatarId": ""
                                         }
                                     },
                                     {
@@ -9514,6 +9526,19 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "ced1ea6a-c3f0-4b5c-bb20-fd9ada3bd393",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "I can use these\nportal charges to\nget around.",
+                            "Check out this\ntargetting system!",
+                            "** USE SELECT TO\nSELECT PORTAL\nCOLOR **",
+                            "** PRESS B TO\nACTIVATE\nTARGET SYSTEM **"
+                        ],
+                        "avatarId": ""
                     }
                 },
                 {
@@ -16525,8 +16550,8 @@
         "startY": 1,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 193,
-        "worldScrollY": 98,
+        "worldScrollX": 1940,
+        "worldScrollY": 97,
         "zoom": 250,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
