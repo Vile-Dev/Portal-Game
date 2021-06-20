@@ -6,12 +6,16 @@
     "activeFile": "DinningRoomTileSet.tsx",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "Background_Tiles.tsx": {
+            "scaleInDock": 1
+        },
         "DinningRoom.tmx": {
             "scale": 4.026190476190476,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 75.50561797752809,
+                "x": 75.00887049083386,
                 "y": 71.53163808397399
             }
         },
@@ -19,20 +23,59 @@
             "scaleInDock": 1,
             "scaleInEditor": 3
         },
+        "TileSets/sample_town_tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TileSets/stars.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "black.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 5.5
+        },
+        "dining_room.tmx": {
+            "scale": 2.553125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 171.94614443084453,
+                "y": 159.6083231334149
+            }
+        },
+        "hall_2.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 177,
+                "y": 141.66666666666663
+            }
+        },
+        "sample_town_tiles.tsx": {
+            "scaleInDock": 1
         },
         "shipInteriorMap.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 75.83333333333333,
-                "y": 71.83333333333333
+                "x": 76,
+                "y": 72
             }
+        },
+        "small carpeted room.tmx": {
+            "scale": 5.592559523809523,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 91.90782821563516,
+                "y": 77.06668085785749
+            }
+        },
+        "small_carpeted_room.tsx": {
+            "scaleInDock": 1
         }
     },
-    "last.imagePath": "C:/Users/James/Documents/Jobs/Raytheon/Hackathon/Hackathon_6_18_2021/Portal/Portal Game/TileD",
+    "last.externalTilesetPath": "C:/Users/jake/Desktop/Portal Game/TileD/TileSets",
+    "last.imagePath": "C:/Users/jake/Desktop/Portal Game/TileD",
     "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
@@ -45,9 +88,14 @@
     ],
     "project": "ShipInterior.tiled-project",
     "recentFiles": [
-        "shipInteriorMap.tmx",
-        "DinningRoom.tmx",
+        "small carpeted room.tmx",
+        "hall_2.tmx",
+        "TileSets/stars.tsx",
+        "TileSets/sample_town_tiles.tsx",
+        "dining_room.tmx",
         "DinningRoomTileSet.tsx",
+        "DinningRoom.tmx",
+        "shipInteriorMap.tmx",
         "black.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
