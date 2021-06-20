@@ -3,8 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "DinningRoomTileSet.tsx",
+    "activeFile": "long_hallway.tmx",
     "expandedProjectPaths": [
+        ".",
+        "C:/Users/jake/Desktop/Portal Game"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -23,13 +25,49 @@
             "scaleInDock": 1,
             "scaleInEditor": 3
         },
-        "TileSets/sample_town_tiles.tsx": {
-            "scaleInDock": 1,
+        "TileSets/Background_Tiles.tsx": {
+            "scaleInDock": 5.5,
             "scaleInEditor": 1
+        },
+        "TileSets/DinningRoom.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 4
+        },
+        "TileSets/Free Furniture 2.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "TileSets/Free Furniture.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "TileSets/Old Halls by AFI Revert.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 5.5
+        },
+        "TileSets/Old Halls by AFI.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "TileSets/sample_town_tiles.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "TileSets/small_carpeted_room.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 5.5
         },
         "TileSets/stars.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "TileSets/waves.tsx": {
+            "scaleInDock": 11,
+            "scaleInEditor": 1
+        },
+        "TileSets/waves2.tsx": {
+            "scaleInDock": 11,
+            "scaleInEditor": 45
         },
         "black.tsx": {
             "scaleInDock": 1,
@@ -49,6 +87,22 @@
             "viewCenter": {
                 "x": 177,
                 "y": 141.66666666666663
+            }
+        },
+        "long_hallway.tmx": {
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 264.66666666666663,
+                "y": 169.66666666666663
+            }
+        },
+        "room1.tmx": {
+            "scale": 7.505,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 75.81612258494337,
+                "y": 79.94670219853431
             }
         },
         "sample_town_tiles.tsx": {
@@ -76,27 +130,33 @@
     },
     "last.externalTilesetPath": "C:/Users/jake/Desktop/Portal Game/TileD/TileSets",
     "last.imagePath": "C:/Users/jake/Desktop/Portal Game/TileD",
-    "map.height": 40,
+    "map.height": 20,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 150,
+    "map.width": 20,
     "openFiles": [
-        "shipInteriorMap.tmx",
-        "DinningRoom.tmx",
-        "DinningRoomTileSet.tsx"
+        "TileSets/Background_Tiles.tsx",
+        "TileSets/Free Furniture.tsx",
+        "TileSets/sample_town_tiles.tsx",
+        "long_hallway.tmx",
+        "TileSets/Free Furniture 2.tsx",
+        "TileSets/Old Halls by AFI Revert.tsx"
     ],
     "project": "ShipInterior.tiled-project",
     "recentFiles": [
-        "small carpeted room.tmx",
-        "hall_2.tmx",
-        "TileSets/stars.tsx",
+        "TileSets/Background_Tiles.tsx",
+        "TileSets/Free Furniture.tsx",
         "TileSets/sample_town_tiles.tsx",
-        "dining_room.tmx",
-        "DinningRoomTileSet.tsx",
-        "DinningRoom.tmx",
-        "shipInteriorMap.tmx",
-        "black.tsx"
+        "TileSets/Old Halls by AFI Revert.tsx",
+        "TileSets/Free Furniture 2.tsx",
+        "long_hallway.tmx",
+        "TileSets/Old Halls by AFI.tsx",
+        "TileSets/waves.tsx",
+        "TileSets/waves2.tsx",
+        "TileSets/small_carpeted_room.tsx",
+        "room1.tmx",
+        "TileSets/DinningRoom.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
