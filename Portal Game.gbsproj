@@ -404,8 +404,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "a7e31b13-80fe-43e9-8f75-9cf7c74ef4cd",
-            "x": 168.33333333333323,
-            "y": 55.40000000000001,
+            "x": 62.85714285714287,
+            "y": 151.97142857142853,
             "actors": [
                 {
                     "name": "Green Portal 1",
@@ -2044,7 +2044,8 @@
                             "b"
                         ],
                         "persist": false,
-                        "__scriptTabs": "press"
+                        "__scriptTabs": "press",
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -2064,7 +2065,8 @@
                                             "args": {
                                                 "customEventId": "9ea84799-4eab-4030-bd2f-a797ca463dab",
                                                 "__name": "Fire Bullet",
-                                                "$variable[9]$": "2"
+                                                "$variable[9]$": "2",
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "script": [
@@ -2198,8 +2200,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "93efc355-f0cc-40fd-8f2c-1a799c9cd725",
-            "x": 403.2666666666664,
-            "y": 40.76666666666672,
+            "x": 313.1809523809526,
+            "y": 143.1952380952382,
             "actors": [
                 {
                     "name": "Room 1 Portal",
@@ -3850,6 +3852,56 @@
                     "x": 0,
                     "y": 17,
                     "isPinned": true
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a0d1822b-9a4a-4550-97da-7058d7bcf328",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [
+                        {
+                            "id": "e0062525-0c32-4632-ad8f-0a1505222bd9",
+                            "command": "EVENT_ACTOR_SET_POSITION",
+                            "args": {
+                                "actorId": "5e1a46a9-2b5a-4b5d-b0ed-916a4a57f113",
+                                "x": {
+                                    "type": "property",
+                                    "value": "$self$:xpos"
+                                },
+                                "y": {
+                                    "type": "property",
+                                    "value": "$self$:ypos"
+                                },
+                                "__collapse": false
+                            }
+                        },
+                        {
+                            "id": "eda0a604-7c4c-433f-939e-f61d5c3c061e",
+                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                            "args": {
+                                "actorId": "5e1a46a9-2b5a-4b5d-b0ed-916a4a57f113",
+                                "x": 0,
+                                "y": 1
+                            }
+                        },
+                        {
+                            "id": "9b0e8088-a4b3-4be1-81ad-f999a5c3589f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "692e8386-6261-4da0-9fda-9891ba39b3a9",
+                    "x": 12,
+                    "y": 3,
+                    "collisionGroup": "2"
                 }
             ],
             "triggers": [],
@@ -7433,8 +7485,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "5ac01fa0-c5d0-4d94-ac68-0e00b89bfd8e",
-            "x": 639.7380952380953,
-            "y": 40.84285714285734,
+            "x": 551.8523809523808,
+            "y": 30,
             "actors": [
                 {
                     "name": "Room 2 Portal",
@@ -9712,7 +9764,7 @@
             "type": "0"
         },
         {
-            "name": "Scene 4",
+            "name": "Scene 3 Overlay",
             "backgroundId": "8866b9ef-f767-4de7-8ac2-8427abc6d3e6",
             "width": 40,
             "height": 43,
@@ -11569,8 +11621,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "0d1a87d9-deb7-4d22-a539-2c2f6f702258",
-            "x": 639.9999999999994,
-            "y": 443.0000000000002,
+            "x": 533.5999999999999,
+            "y": 431.8000000000006,
             "actors": [],
             "triggers": [],
             "type": "4",
@@ -11581,6 +11633,43 @@
                 null,
                 "default-bg-5"
             ]
+        },
+        {
+            "name": "Scene 5",
+            "backgroundId": "28ddf7ef-5dbc-4773-aa47-7b320fcad474",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "b54a545e-a9a4-42f1-95f8-2f1954103418",
+            "x": 979.142857142857,
+            "y": 139.14285714285714,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a0d1822b-9a4a-4550-97da-7058d7bcf328",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0cdb910d-c749-4a9a-ae58-8aa1d70aa811",
+                    "x": 16,
+                    "y": 8
+                }
+            ],
+            "triggers": []
         }
     ],
     "backgrounds": [
@@ -13278,9 +13367,9 @@
         "startY": 6,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 46,
-        "worldScrollY": 0,
-        "zoom": 200,
+        "worldScrollX": 560,
+        "worldScrollY": 659,
+        "zoom": 500,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",

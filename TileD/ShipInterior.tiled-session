@@ -76,11 +76,11 @@
     },
     "last.externalTilesetPath": "C:/Users/jake/Desktop/Portal Game/TileD/TileSets",
     "last.imagePath": "C:/Users/jake/Desktop/Portal Game/TileD",
-    "map.height": 18,
+    "map.height": 40,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 150,
     "openFiles": [
         "shipInteriorMap.tmx",
         "DinningRoom.tmx",

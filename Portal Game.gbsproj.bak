@@ -866,6 +866,16 @@
                             }
                         },
                         {
+                            "id": "b90459e0-63b0-459c-8267-6c91159f9468",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I hope this leads\nsomeplace safe..."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
                             "id": "d7db3176-7902-464b-ac58-173a19d3ee4d",
                             "command": "EVENT_END"
                         }
@@ -1070,6 +1080,17 @@
                                         "command": "EVENT_END"
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id": "2906dfb3-74ef-4dfd-8fd3-d2b83ee87c69",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Whoa, I guess\nteleporting is\nreal.",
+                                    "That crazy Doctor\nwas actually right\nabout something?"
+                                ],
+                                "avatarId": ""
                             }
                         },
                         {
@@ -13257,8 +13278,8 @@
         "startY": 6,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 948,
-        "worldScrollY": 501,
+        "worldScrollX": 46,
+        "worldScrollY": 0,
         "zoom": 200,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
